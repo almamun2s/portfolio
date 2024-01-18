@@ -20,6 +20,3 @@ $("#xmark").click( function(){
     $("#popup_contact").removeClass("popup_contact_show");
 });
 
-
-// Menu Active JS
-$("li").removeClass("active");
