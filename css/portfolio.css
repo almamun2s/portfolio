@@ -1,0 +1,50 @@
+/* ====================================================================================================================
+                                                        Portfolio section Start
+=================================================================================================================== */
+.portfolio{
+    background-image: linear-gradient(to left, #fef2ff , #efd9ff);
+    padding: 30px 0;
+}
+.portfolio_row_home{
+    padding: 10px 0;
+    width: 90%;
+    margin: auto;
+}
+.portfolio_row_home:last-child{
+    overflow: hidden;
+}
+.portfolio_item_home{
+    width: 23%;
+    box-shadow: 20px 30px 60px 5px rgba(129, 173, 234, 0.2);
+    display: inline-block;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+/* .portfolio_item_home:first-child{
+    margin-left: 0;
+}
+.portfolio_item_home:nth-child(5){
+    margin-left: 0;
+} */
+.portfolio_item_home img{
+    max-width: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.portfolio_item_home img:hover{
+    transform: scale(1.1);
+    border-radius: 0;
+
+}
+@media (max-width:600px) {
+    .portfolio_item_home{
+        width: 48%;
+    }
+    .portfolio_item_home:nth-child(3), .portfolio_item_home:nth-child(5){
+        margin-left: 0;
+    }
+    .portfolio_item_home:nth-child(4){
+        margin-left: 1%;
+    }
+}
+                                /* Portfolio section End */

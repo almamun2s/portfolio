@@ -1,0 +1,115 @@
+<!--===================================================================================================================== 
+                                            This is Portfolio part 
+======================================================================================================================-->
+<div class="portfolio">
+    <div class="container">
+        <!-- Header part of Portfolio -->
+        <h1 class="special_under">Portfolio</h1>
+        <h2 class="special_upper"> Visit my previous works </h2>
+        
+        <div class="portfolio_row_home">
+
+            <div class="portfolio_item_home">
+                <a href="#">
+                    <img src="pages/portfolio/img/portfolio2.jpg" alt="">
+                </a>
+            </div>
+            <div class="portfolio_item_home">
+                <a href="#">
+                    <img src="pages/portfolio/img/portfolio1.jpg" alt="">
+                </a>
+            </div>
+            <div class="portfolio_item_home">
+                <a href="#">
+                    <img src="pages/portfolio/img/portfolio1.jpg" alt="">
+                </a>
+            </div>
+            <div class="portfolio_item_home">
+                <a href="#">
+                    <img src="pages/portfolio/img/portfolio4.jpg" alt="">
+                </a>
+            </div>
+            <div class="portfolio_item_home">
+                <a href="#">
+                    <img src="pages/portfolio/img/portfolio3.jpg" alt="">
+                </a>
+            </div>
+            <div class="portfolio_item_home">
+                <a href="#">
+                    <img src="pages/portfolio/img/portfolio3.jpg" alt="">
+                </a>
+            </div>
+            
+            <div class="portfolio_item_home">
+                <a href="#">
+                    <img src="pages/portfolio/img/63ad79334a7e0.jpg" alt="">
+                </a>
+            </div>
+            <div class="portfolio_item_home">
+                <a href="#">
+                    <img src="pages/portfolio/img/63ad898f78599.jpg" alt="">
+                </a>
+            </div>
+            <div class="portfolio_item_home">
+                <a href="#">
+                    <img src="pages/portfolio/img/63ad898f78599.jpg" alt="">
+                </a>
+            </div>
+            <div class="portfolio_item_home">
+                <a href="#">
+                    <img src="pages/portfolio/img/63ada3fe35070.jpg" alt="">
+                </a>
+            </div>
+            <div class="portfolio_item_home">
+                <a href="#">
+                    <img src="pages/portfolio/img/63ada3fe35070.jpg" alt="">
+                </a>
+            </div>
+            <div class="portfolio_item_home">
+                <a href="#">
+                    <img src="pages/portfolio/img/63adadbd53ce9.jpg" alt="">
+                </a>
+            </div>
+
+             <!-- <?php
+                // This brings data from portfolio database
+                require_once("tahera/core/connect.php");
+                $getpfolio = "SELECT * FROM `portfolio` WHERE `home` = 1 ORDER BY `portfolio`.`id` DESC; ";
+                $allpfolio = mysqli_query($connect, $getpfolio);
+                
+                if($allpfolio == true){
+                    
+                    while( $data= mysqli_fetch_array($allpfolio)){
+                        $pid = $data["id"];
+                        $image = $data["image"];
+                        $title = $data["title"];
+                        
+                        // echo '<div class="portfolio_item_home">';
+                        //     echo '<img src="portfolio/'.$image.'" alt="">';
+                        //     echo '<h5>'.$title.'</h5>';
+                        //     echo '<a href="portfolio_item.php?pid='.$pid.'" target="_blank" rel="noopener noreferrer">View</a>';
+                        //     echo '</div>';
+                            
+
+                            echo "<div class='portfolio_item_home'>" ;
+                            echo "<a href=''>" ;
+                            echo "<img src='portfolio/".$image."'>" ;
+                            echo "</a>" ;
+                            echo "</div>" ;
+                        }
+                }
+                else{
+                    echo "Failed to get portfolio ";
+                }
+                    ?>                         -->
+        </div>
+                
+        <div class="portfolio_row_home ">
+
+
+            <a href="portfolio.php" target="_blank" rel="noopener noreferrer" class="button">Watch more...</a>
+        </div>
+    </div>
+            
+</div>
+        <!-- Portfolio part Ends-->

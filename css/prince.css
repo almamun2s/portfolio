@@ -1,0 +1,98 @@
+.Group_5 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1024px;
+  height: 2036px;
+  z-index: 28;
+}
+.Layer_2 {
+  background-image: url("Layer 2.png");
+  position: absolute;
+  left: 835px;
+  top: 72px;
+  width: 111px;
+  height: 111px;
+  z-index: 27;
+}
+.Rectangle_3 {
+  background-color: rgb(0, 174, 239);
+  position: absolute;
+  left: 835px;
+  top: 66px;
+  width: 112px;
+  height: 118px;
+  z-index: 26;
+}
+.Rectangle_3_copy {
+  background-color: rgb(0, 174, 239);
+  position: absolute;
+  left: 830px;
+  top: 62px;
+  width: 121px;
+  height: 126px;
+  z-index: 25;
+}
+.Group_3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1024px;
+  height: 2036px;
+  z-index: 25;
+}
+.Ellipse_2_copy_2 {
+  border-radius: 50%;
+  background-image: -moz-linear-gradient( -13deg, rgb(253,125,117) 0%, rgb(252,148,118) 61%, rgb(251,170,118) 100%);
+  background-image: -webkit-linear-gradient( -13deg, rgb(253,125,117) 0%, rgb(252,148,118) 61%, rgb(251,170,118) 100%);
+  background-image: -ms-linear-gradient( -13deg, rgb(253,125,117) 0%, rgb(252,148,118) 61%, rgb(251,170,118) 100%);
+  position: absolute;
+  left: 527px;
+  top: 318px;
+  width: 52px;
+  height: 52px;
+  z-index: 24;
+}
+ .Ellipse_1 {
+  border-radius: 50%;
+  background-image: -moz-linear-gradient( -13deg, rgb(235,118,254) 0%, rgb(216,119,253) 61%, rgb(197,120,252) 100%);
+  background-image: -webkit-linear-gradient( -13deg, rgb(235,118,254) 0%, rgb(216,119,253) 61%, rgb(197,120,252) 100%);
+  background-image: -ms-linear-gradient( -13deg, rgb(235,118,254) 0%, rgb(216,119,253) 61%, rgb(197,120,252) 100%);
+  position: absolute;
+  left: 704px;
+  top: 1255px;
+  width: 47px;
+  height: 55px;
+  z-index: 12;
+}
+.Group_2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1024px;
+  height: 2036px;
+  z-index: 5;
+}
+.Rectangle_2 {
+  border-radius: 12px;
+  background-image: -moz-linear-gradient( -13deg, rgb(253,125,117) 0%, rgb(252,148,118) 61%, rgb(251,170,118) 100%);
+  background-image: -webkit-linear-gradient( -13deg, rgb(253,125,117) 0%, rgb(252,148,118) 61%, rgb(251,170,118) 100%);
+  background-image: -ms-linear-gradient( -13deg, rgb(253,125,117) 0%, rgb(252,148,118) 61%, rgb(251,170,118) 100%);
+  position: absolute;
+  left: 660px;
+  top: 1922px;
+  width: 160px;
+  height: 31px;
+  z-index: 4;
+}
+.Rectangle_1 {
+  background-color: rgb(84, 19, 171);
+  position: absolute;
+  left: -2px;
+  top: 1867px;
+  width: 1059px;
+  height: 120px;
+  z-index: 3;
+}
+
+
