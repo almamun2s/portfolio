@@ -3,12 +3,15 @@
 $("#show_menu").click ( function(){
     $(this).addClass("hide");
     $("#hide_menu").removeClass("hide");
-    $("#mobile_menu").slideDown(500);
+    $(".main_menu ul").slideDown(500, function() {
+        $(this).css("display", "flex");
+    });
+    
 });
 $("#hide_menu").click ( function(){
     $(this).addClass("hide");
     $("#show_menu").removeClass("hide");
-    $("#mobile_menu").slideUp(500);
+    $(".main_menu ul").slideUp(500);
 });
 
 

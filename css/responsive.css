@@ -45,7 +45,8 @@
         width: 675px;
     }
     .main_menu ul li{
-        width: 80px;
+        width: 7rem;
+        text-align: right;
     }
     .banner_description h2{
         font-size: 22px;
@@ -128,33 +129,14 @@
 
 /*============================================= Device width Lower than 650px ==========================================*/
 @media (max-width:650px) {
-    .main_menu{
+    .main_menu i{
+        visibility: visible;
+        opacity: 1;
+    }
+    .main_menu ul{
+        flex-direction: column;
         display: none;
-    }
-    .mobile_menu_icon{
-        display: block;
-        padding-top: 18px;
-        text-align: right;
-    }
-    .mobile_menu{
-        display: none;
-    }
-    .mobile_menu ul{
-        list-style: none;
-    }
-    .mobile_menu ul li{
-        display: block;
-        padding: 5px 10px;
-    }
-    .mobile_menu ul li a{
-        text-decoration: none;
-        color: #000;
-    }
-    /* .show{
-        display: block;
-    } */
-    .hide{
-        display: none;
+        padding-top: 3rem;
     }
     .xmark{
         right: 5px;

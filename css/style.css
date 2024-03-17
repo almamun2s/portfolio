@@ -17,7 +17,14 @@ h2{
     max-width: 1000px;
     margin: auto;
 }
-
+.hide{
+    /* display: none !important; */
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+.d-flex{
+    display: flex !important;
+}
 :root{
     --logo_up: #00aeef;
     --logo_down: #ee2d33;
@@ -165,6 +172,18 @@ header{
 .menu{
     float: right;
     font-size: 18px;
+}
+.main_menu{
+    text-align: right;
+    position: relative;
+}
+.main_menu i{
+    visibility: hidden;
+    opacity: 0;
+    padding-top: 1rem;
+    transition: all 0.3s ease;
+    position: absolute;
+    right: 1rem;
 }
 .main_menu ul{
     list-style: none;
