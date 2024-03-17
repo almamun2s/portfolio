@@ -1,28 +1,14 @@
 /* Device width 1100px and Upper */
 /* Device width Lower than 1100px */
 @media (max-width:1100px) {
-    /* .container{
-        width: 60rem;
-    } */
     .portfolio_item_home{
         width: 31%;
     }
 }
 
 
-/*============================================= Device width Lower than 1000px ==========================================*/
-@media (max-width:1000px) {
-    /* .container{
-        width: 52rem;
-    } */
-}
-
-
 /* Device width Lower than 900px */
 @media (max-width:900px) {
-    /* .container{
-        width: 45rem;
-    } */
     .banner_description h2{
         font-size: 1.5rem;
     }
@@ -41,9 +27,6 @@
 
 /*============================================= Device width Lower than 800px ==========================================*/
 @media (max-width:800px) {
-    /* .container{
-        width: 42rem;
-    } */
     .main_menu ul li{
         width: 7rem;
         text-align: right;
@@ -73,9 +56,6 @@
 
 /*============================================= Device width Lower than 700px ==========================================*/
 @media (max-width:700px) {
-    /* .container{
-        width: 32rem;
-    } */
     .banner{
         padding: 3.75rem 0;
         text-align: center;
@@ -157,9 +137,6 @@
 
 /*============================================= Device width Lower than 600px ==========================================*/
 @media (max-width:600px) {
-    /* .container{
-        width: 90%;
-    } */
     .popup_inner{
         width: 28.5rem;
     }
@@ -170,6 +147,10 @@
 @media (max-width:500px) {
     .popup_inner{
         width: auto;
+    }
+    .input,
+    .textarea{
+        width: 16rem;
     }
 }
 /*============================================= Device width Lower than 400px ==========================================*/

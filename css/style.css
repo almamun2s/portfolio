@@ -59,9 +59,6 @@ html{
     border-radius: 0.5rem;
     font-size: 1rem;
     transition: var(--transition);
-    float: right;
-    margin-right: 5px;
-    margin-top: -10px;
     animation: wiggle 2s linear infinite;
 }
   /* Keyframes */

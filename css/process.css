@@ -6,6 +6,9 @@
 .process_row{
     width: 90%;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .process_item{
     background-color: #ffffff;
@@ -13,14 +16,7 @@
     border-radius: 0.5rem;
     box-shadow: 0 0 2.5rem 0.5rem rgba(91, 134, 149, 0.393);
     display: inline-block;
-    margin-left: 2%;
     margin-bottom: 3%;
-}
-.process_item:first-child{
-    margin-left: 0;
-}
-.process_item:nth-child(4){
-    margin-left: 0;
 }
 .process_row_rmv{
     visibility: hidden;
