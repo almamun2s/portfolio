@@ -92,7 +92,7 @@
     padding: 0.5rem ;
     border-radius: 5px;
     margin-bottom: 20px;
-    box-shadow: 0 0  3.75 0 rgba(169, 232, 255, 0.5);
+    box-shadow: 0 0  3.75rem 0 rgba(169, 232, 255, 0.5);
     overflow: hidden;
 }
 .welcome_icon{

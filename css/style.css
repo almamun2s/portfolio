@@ -9,7 +9,6 @@
     font-family: 'Itim', cursive;
 }
 h2{
-    /* font-family: 'Josefin Sans', sans-serif; */
     font-family: 'Ubuntu', sans-serif;
 }
 .container{
@@ -18,7 +17,6 @@ h2{
     margin: auto;
 }
 .hide{
-    /* display: none !important; */
     visibility: hidden !important;
     opacity: 0 !important;
 }
@@ -32,6 +30,9 @@ h2{
     --contact_border: #7abad1;
     --contact_animate: var(--logo_up) ;
     --transition: all 0.3s ease ;
+
+    --ff-ubuntu: 'Ubuntu', sans-serif;
+    --ff-itim: 'Itim', cursive ;
 
 }
 ::-webkit-scrollbar{
@@ -202,7 +203,7 @@ header{
     transition: var(--transition);
 }
 .main_menu ul li:hover a{
-    color: #00aeef;
+    color: var(--logo_up);
 }
 .active {
     background-color: #ef343a85;
