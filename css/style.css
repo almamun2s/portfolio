@@ -13,8 +13,8 @@ h2{
     font-family: 'Ubuntu', sans-serif;
 }
 .container{
-    width: 100%;
-    max-width: 1000px;
+    width: 95%;
+    max-width: 64rem;
     margin: auto;
 }
 .hide{
@@ -31,19 +31,20 @@ h2{
     --contact_color: #e47175;
     --contact_border: #7abad1;
     --contact_animate: var(--logo_up) ;
+    --transition: all 0.3s ease ;
 
 }
 ::-webkit-scrollbar{
-    width: 10px;
+    width: 0.5rem;
 }
 ::-webkit-scrollbar-track{
     background-color: var(--contact_border);
-    width: 10px;
+    width: 0.5rem;
 }
 ::-webkit-scrollbar-thumb{
     background-color: var(--logo_down);
     border: 1px solid var(--contact_border);
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
 html{
     scroll-behavior: smooth;
@@ -53,11 +54,11 @@ html{
     background-color: #49405c;
     color: #fff;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 0.5rem 1rem;
     border: 1px solid #49405c;
-    border-radius: 10px;
-    font-size: 16px;
-    transition: 0.5s;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    transition: var(--transition);
     float: right;
     margin-right: 5px;
     margin-top: -10px;
@@ -93,7 +94,7 @@ html{
     }
     @media (max-width:1210px) {
         .button{
-            margin-right: 85px;
+            margin-right: 5.25rem ;
         }
         
     }
@@ -165,13 +166,13 @@ header{
     width: 30%;
 }
 .logo img{
-    max-width: 150px;
+    max-width: 10rem ;
     padding: 5px 0;
 }
 /* ================================================= Menu Starts Here=============================== */
 .menu{
     float: right;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 .main_menu{
     text-align: right;
@@ -181,27 +182,27 @@ header{
     visibility: hidden;
     opacity: 0;
     padding-top: 1rem;
-    transition: all 0.3s ease;
+    transition: var(--transition);
     position: absolute;
     right: 1rem;
 }
 .main_menu ul{
     list-style: none;
     display: flex;
-    padding-top: 7px;
+    padding-top: 0.5rem ;
 }
 .main_menu ul li{
-    width: 100px;
+    width: 6.25rem ;
     display: inline-block;
     text-align: center;
-    transition: all 0.4s ease;
+    transition: var(--transition);
 }
 .main_menu ul li a{
     text-decoration: none;
     color: #000;
     display: block;
-    padding: 10px 15px;
-    transition: all 0.3s ease;
+    padding: 0.5rem 1rem;
+    transition: var(--transition);
 }
 .main_menu ul li:hover a{
     color: #00aeef;
@@ -218,19 +219,17 @@ footer{
     background-color: #000;
     color: #fff;
     width: 100%;
-    padding: 25px 0 ;
+    padding: 1.5rem 0 ;
 }
 footer h4{
-    font-size: 16px;
+    font-size: 1rem ;
     text-align: center;
 }
 
 /* ============================================ Footer Top Part ===================================================== */
 .footer{
     background-image: linear-gradient( to right, rgb(84, 19, 171), rgb(121, 77, 178));
-    /* background-color: rgb(84, 19, 171); */
-
-    padding: 35px 0;
+    padding: 2.2rem  0;
 }
 
 .footer_top{
@@ -242,13 +241,13 @@ footer h4{
     width: 50%;
 }
 .footer_left h2{
-    font-size: 30px;
+    font-size: 2rem ;
     color: #fff;
 }
 .footer_left p{
-    font-size: 16px;
+    font-size: 1rem;
     color: #fff;
-    padding-top: 10px;
+    padding-top: 0.5;
 }
 
 .footer_right{
@@ -258,15 +257,15 @@ footer h4{
 
 /* ============================================== This is the awesome button ==================== */
 .footer_right button{
-    margin-top: 35px ;
-    padding: 10px 0;
-    font-size: 16px;
+    margin-top: 2.2rem ;
+    padding: 0.5rem 0;
+    font-size: 1rem ;
     background-image: linear-gradient( to right, #ff7d73, #fbaa75);
     color: #000;
     border: none;
-    border-radius: 15px;
-    width: 200px;
-    transition: all 0.3s ease;
+    border-radius: 1rem;
+    width: 12.5rem ;
+    transition: var(--transition);
     cursor: pointer ;
 }
 .footer_right button:hover{
@@ -285,10 +284,10 @@ footer h4{
     left: 0;
     z-index: 9;
 
-    transform: translate(300px,350px) scale(0.1);
+    transform: translate(18.75rem , 22rem ) scale(0.1);
     visibility: hidden;
     opacity: 0;
-    transition: all 0.5s ease;
+    transition: var(--transition);
 }
 .popup_contact_show{
     visibility: visible;
@@ -298,30 +297,30 @@ footer h4{
 
 
 .popup_inner{
-    width: 500px;
+    width: 31.25rem ;
     background-color: #fff;
     margin: auto;
     margin-top: 30vh;
-    padding: 30px 0;
-    box-shadow: 5px 5px 100px 20px var(--contact_color);
-    border-radius: 10px;
+    padding: 2rem  0;
+    box-shadow: 5px 5px 6.25rem  1.5rem var(--contact_color);
+    border-radius: 0.5rem ;
     position: relative;
 }
 .xmark{
-    font-size: 30px;
+    font-size: 2rem ;
     position: absolute;
     top: -5px;
     right: -25px;
     color: #000;
     cursor: pointer;
-    transition: 0.4s;
+    transition: var(--transition);
 }
 .xmark:hover{
     color: var(--logo_down);
 }
 .popup_inner h2{
     text-align: center;
-    font-size: 30px;
+    font-size: 2rem;
     color: #000;
 }
 .popup_inner form{
@@ -330,13 +329,13 @@ footer h4{
     color: #fff;
     width: 80%;
     margin: auto;
-    border-radius: 20px;
-    padding: 20px 0;
+    border-radius: 1.2rem;
+    padding: 1.2rem 0;
 
 }
 .input{
-    width: 300px;
-    height: 50px;
+    width: 18.75rem ;
+    height: 3.2rem ;
     margin: auto;
     position: relative;
 }
@@ -345,8 +344,8 @@ footer h4{
     height: 100%;
     outline: none;
     border: none;
-    font-size: 18px;
-    padding-top: 15px;
+    font-size: 1.1rem ;
+    padding-top: 1rem;
     background-color: var(--contact_color);
     color: #fff;
 }
@@ -370,19 +369,19 @@ footer h4{
     bottom: 0;
     border-bottom: 3px solid var(--contact_animate);
     transform: translateX(-100%);
-    transition: all 0.4s ease;
+    transition: var(--transition);
 
 }
 .input label span{
     position: absolute;
     left: 0px;
     bottom: 10px;
-    font-size: 20px;
-    transition: all 0.4s ease;
+    font-size: 1.2rem;
+    transition: var(--transition);
 }
 .input input:focus + label span, .input input:valid + label span{
     transform: translateY(-140%);
-    font-size: 14px;
+    font-size: 1rem;
     color: var(--contact_animate);
 }
 .input input:focus + label::after, .input input:valid + label::after{
@@ -392,16 +391,16 @@ footer h4{
 
 .textarea{
     position: relative;
-    width: 300px;
+    width: 18.75rem;
     margin: auto;
-    height: 80px;
+    height: 5rem;
 }
 .textarea textarea{
     max-width: 100%;
     outline: none;
     border: none;
-    font-size: 18px;
-    padding-top: 15px;
+    font-size: 1.1rem;
+    padding-top: 1rem;
     background-color: var(--contact_color);
     color: #fff;
 }
@@ -420,8 +419,8 @@ footer h4{
     position: absolute;
     left: 0px;
     bottom: 10px;
-    font-size: 20px;
-    transition: all 0.4s ease;
+    font-size: 1.2rem ;
+    transition: var(--transition);
 }
 .textarea label::after{
     content: "";
@@ -432,11 +431,11 @@ footer h4{
     bottom: 0;
     border-bottom: 3px solid var(--contact_animate);
     transform: translateX(-100%);
-    transition: all 0.4s ease;
+    transition: var(--transition);
 }
 .textarea textarea:focus + label span, .textarea textarea:valid + label span{
     transform: translateY(-300%);
-    font-size: 14px;
+    font-size: 1rem;
     color: var(--contact_animate);
 }
 .textarea textarea:focus + label::after, .textarea textarea:valid + label::after{
@@ -448,7 +447,7 @@ input[type="submit"]{
     color: #fff;
     padding: 0;
     margin-top: 5px;
-    transition: all 0.5s ease;
+    transition: var(--transition);
     cursor: pointer;
 }
 input[type="submit"]:hover{
@@ -466,15 +465,15 @@ input[type="submit"]:hover{
     text-align: center;
 }
 .part404 h1{
-    font-size: 200px;
-    padding-top: 50px;
+    font-size: 12.5rem;
+    padding-top: 3.2rem;
     color: var(--logo_down);
 }
 .part404 h2{
-    font-size: 30px;
+    font-size: 2rem;
 }
 .part404 h3{
-    padding-bottom: 100px;
+    padding-bottom: 6.5rem;
     
 }
 
@@ -484,14 +483,14 @@ input[type="submit"]:hover{
 ====================================================================================================================*/
 /* Special feature part of the website Start */
 .special_under{
-    font-size: 100px;
+    font-size: 6.5rem;
     color: rgba(129, 173, 234, 0.2);
-    letter-spacing: 10px;
+    letter-spacing: 0.5rem;
     text-align: center;
 }
 .special_upper{
-    margin-top: -60px;
-    margin-bottom: 30px;
+    margin-top: -3.75rem;
+    margin-bottom: 2rem;
     width: 100%;
     font-size: xx-large;
     text-align: center;

@@ -3,10 +3,10 @@
 =================================================================================================================== */
 .portfolio{
     background-image: linear-gradient(to left, #fef2ff , #efd9ff);
-    padding: 30px 0;
+    padding: 2rem 0;
 }
 .portfolio_row_home{
-    padding: 10px 0;
+    padding: 0.5rem 0;
     width: 90%;
     margin: auto;
 }
@@ -15,22 +15,16 @@
 }
 .portfolio_item_home{
     width: 23%;
-    box-shadow: 20px 30px 60px 5px rgba(129, 173, 234, 0.2);
+    box-shadow: 1.3rem 2rem 4rem 0.5rem rgba(129, 173, 234, 0.2);
     display: inline-block;
     margin-left: 1%;
     margin-bottom: 2%;
     overflow: hidden;
 }
-/* .portfolio_item_home:first-child{
-    margin-left: 0;
-}
-.portfolio_item_home:nth-child(5){
-    margin-left: 0;
-} */
 .portfolio_item_home img{
     max-width: 100%;
-    border-radius: 10px;
-    transition: 0.3s;
+    border-radius: 0.5rem;
+    transition: var(--transition);
 }
 .portfolio_item_home img:hover{
     transform: scale(1.1);

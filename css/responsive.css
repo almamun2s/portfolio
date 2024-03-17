@@ -1,9 +1,9 @@
 /* Device width 1100px and Upper */
 /* Device width Lower than 1100px */
 @media (max-width:1100px) {
-    .container{
-        width: 950px;
-    }
+    /* .container{
+        width: 60rem;
+    } */
     .portfolio_item_home{
         width: 31%;
     }
@@ -12,28 +12,28 @@
 
 /*============================================= Device width Lower than 1000px ==========================================*/
 @media (max-width:1000px) {
-    .container{
-        width: 850px;
-    }
+    /* .container{
+        width: 52rem;
+    } */
 }
 
 
 /* Device width Lower than 900px */
 @media (max-width:900px) {
-    .container{
-        width: 750px;
-    }
+    /* .container{
+        width: 45rem;
+    } */
     .banner_description h2{
-        font-size: 24px;
+        font-size: 1.5rem;
     }
     .banner_description h1{
-        font-size: 38px;
+        font-size: 2.3rem;
     }
     .banner_description p, .welcome_description p{
-        font-size: 17px;
+        font-size: 1.1rem;
     }
     .welcome_icon{
-        font-size: 35px;
+        font-size: 2.1rem;
     }
 }
 
@@ -41,31 +41,31 @@
 
 /*============================================= Device width Lower than 800px ==========================================*/
 @media (max-width:800px) {
-    .container{
-        width: 675px;
-    }
+    /* .container{
+        width: 42rem;
+    } */
     .main_menu ul li{
         width: 7rem;
         text-align: right;
     }
     .banner_description h2{
-        font-size: 22px;
-        padding: 10px 0;
+        font-size: 1.5rem;
+        padding: 0.5rem 0;
     }
     .banner_description h1{
-        font-size: 34px;
+        font-size: 2.1rem;
     }
     .banner_description p,.welcome_description p{
-        font-size: 16px;
+        font-size: 1rem;
     }
     .welcome_description h2{
-        font-size: 30px;
+        font-size: 2rem;
     }
     .welcome_icon{
-        font-size: 30px;
+        font-size: 2rem;
     }
     .service_item_left{
-        font-size: 22px;
+        font-size: 1.5rem;
     }
 }
 
@@ -73,31 +73,40 @@
 
 /*============================================= Device width Lower than 700px ==========================================*/
 @media (max-width:700px) {
-    .container{
-        width: 575px;
+    /* .container{
+        width: 32rem;
+    } */
+    .banner{
+        padding: 3.75rem 0;
+        text-align: center;
+    }
+    .banner_inner{
+        flex-direction: column;
     }
     .banner_description{
         width: 100%;
     }
     .banner_image{
         width: 100%;
-        padding-top: 10px;
+        padding-top: 0.5rem;
+    }
+    .Welcome_inner{
+        flex-direction: column;
     }
     .welcome_description{
         width: 100%;
-        padding-bottom: 30px;
+        padding-bottom: 2rem;
     }
     .welcome_items{
         width: 100%;
     }
 
     .special_under{
-        font-size: 75px;
-        /* letter-spacing: 10px; */
+        font-size: 4.75rem;
     }
     .special_upper{
-        margin-top: -45px;
-        margin-bottom: 30px;
+        margin-top: -2.8rem;
+        margin-bottom: 2rem;
         font-size: large;
     }
     .service_item{
@@ -148,11 +157,11 @@
 
 /*============================================= Device width Lower than 600px ==========================================*/
 @media (max-width:600px) {
-    .container{
+    /* .container{
         width: 90%;
-    }
+    } */
     .popup_inner{
-        width: 450px;
+        width: 28.5rem;
     }
 }
 

@@ -6,7 +6,7 @@
     width: 100%;
     position: relative;
     z-index: 1;
-    padding: 90px 0;
+    padding: 5.75rem 0;
 }
 .banner::after{
     content: "";
@@ -21,111 +21,35 @@
 .banner_inner{
     margin: auto;
     overflow: hidden;
+    display: flex;
 }
 .banner_description{
     width: 49%;
-    float: left;
+    /* float: left; */
     color: #fff;
 }
 .banner_description h2{
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 .banner_description h1{
-    font-size: 45px;
+    font-size: 2.75rem;
 }
 
 .banner_image p{
     color: #fff;
-    padding-top: 10px;
+    padding-top: 0.5rem;
     text-align: justify;
-    line-height: 28px;
-    font-size: 18px;
+    line-height: 1.75rem;
+    font-size: 1.1rem;
 }
 
 .banner_image{
     width: 50%;
-    /* height: 100%; */
-    float: right;
+    /* float: right; */
     text-align: right;
 }
 
-/* @media (max-width:1090px) {
-    .banner_description p{
-        padding-top: 10px;
-        padding-bottom: 25px;
-        font-size: 17px;    
-        line-height: 25px;
-
-    }
-    .banner_image img{
-        height: 280px;
-    }
-}
-@media (max-width:975px) {
-    .mine{
-        font-size: 15px;
-    }
-    .my_name{
-        font-size: 25px;
-    }
-    .me{
-        font-size: 15px;
-    }
-    .banner_description p{
-        font-size: 14px;    
-
-    }
-    .banner_image img{
-        height: 250px;
-    }
-    
-}
-@media (max-width:756px) {
-    .my_name{
-        font-size: 22px;
-    }
-    .banner_description p{
-        font-size: 14px;
-        line-height: 24px;
-    }
-}
-
-@media (max-width:600px) {
-    .banner_image{
-        display: none;
-        visibility: hidden;
-    }
-
-
-    .mine{
-        font-size: 20px;
-        padding-top: 20px;
-    }
-    .my_name{
-        font-size: 30px;
-    }
-    .me{
-        font-size: 20px;
-    }
-    .banner_description{
-        width: 100%;
-    }
-    .banner_description p{
-        padding-top: 10px;
-        padding-bottom: 25px;
-        font-size: 17px;    
-        line-height: 25px;
-
-    }
-    .banner_image img{
-        height: 280px;
-    }
-} */
-
                                                         /* Banner section  End*/
-
-
-
 
 
 /* ====================================================================================================================
@@ -137,109 +61,68 @@
 
 .Welcome_inner{
     margin: auto;
-    padding: 50px 0;
+    padding: 3.1rem 0;
     overflow: hidden;
+    display: flex;
+    justify-content: space-around;
 }
 
 /* Left side of Welcome Part */
 .welcome_description{ 
     width: 49%;
-    float: left;
     text-align: justify;
 }
 
 .welcome_description h2{
     text-align: left;
-    padding:10px 0;
-    font-size: 33px;
+    padding:0.5rem 0;
+    font-size: 2rem;
 }
 
 .welcome_description p{
     color: rgba(0, 0, 0, 0.75);
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.1rem ;
+    line-height: 1.5rem;
 }
 
 /* Right side of Welcome Part */
 .welcome_items{
-    float: right;
-    width: 50%;
+    width: 49%;
 }
 .welcome_item{
     background-color: #fff;
-    padding: 10px;
+    padding: 0.5rem ;
     border-radius: 5px;
     margin-bottom: 20px;
-    box-shadow: 2px 3px 60px 0 rgba(169, 232, 255, 0.5);
+    box-shadow: 0 0  3.75 0 rgba(169, 232, 255, 0.5);
     overflow: hidden;
 }
 .welcome_icon{
     float: left;
     width: 15%;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
     color: rgb(249 75 82 / 70%);
-    padding: 10px 0;
+    padding: 0.5rem 0;
     margin: 5px;
     border: 1px solid #fef2ff;
     background-image: linear-gradient(to right, #fef2ff , #efd9ff);
     border-radius: 50%;
     animation: animation1 2s linear infinite;
 }
-/* @keyframes animation1 {
-    0%{
-        transform: scale(1);
-    }
-    50%{
-        transform: scale(1.2);
-    }
-    100%{
-        transform: scale(1);
-    }
-} */
 .welcome_icon:hover {
 	animation-play-state: paused;
 }
 .welcome_item_inner{
     width: 80%;
-    float: right;
+    /* float: right; */
 }
 .welcome_item_inner h2{
-    font-size: 22px;
+    font-size: 1.4rem;
 }
 .welcome_item_inner p{
-    font-size: 16px;
+    font-size: 1rem;
 }
 
-
-
-/* @media (max-width:1300px) {
-    .welcome_description{
-        font-size: medium;
-    }
-    .welcome_items{
-        font-size: medium;
-    }
-}
-@media (max-width:1010px) {
-    .welcome_description{
-        font-size: small;
-    }
-    .welcome_items{
-        font-size: small;
-    }
-}
-@media (max-width:700px) {
-    .welcome_description{
-        width: 100%;
-    }
-    .Welcome_inner{
-        padding: 0;
-    }
-    .welcome_items{
-        float: none;
-        width: 100%;
-    }
-} */
 
                                                         /* Welcome section Ends Here */

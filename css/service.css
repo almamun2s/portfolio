@@ -1,7 +1,7 @@
 .service{
     width: 100%;
     background-image: linear-gradient(to right, #fef2ff , #efd9ff);
-    padding: 30px 0;
+    padding: 2rem 0;
 }
 
 .service_item{
@@ -9,10 +9,10 @@
     background-color: #fff;
     margin: 1%;
     display: inline-block;
-    padding: 10px;
-    box-shadow: 0 0 40px 5px rgba(91, 134, 149, 0.393);
+    padding: 0.5rem ;
+    box-shadow: 0 0 2.5rem 0.5rem rgba(91, 134, 149, 0.393);
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 0.5rem;
     position: relative;
 }
 .service_item a{
@@ -22,13 +22,13 @@
 .service_item_left{
     float: left;
     width: 10%;
-    font-size: 25px;
+    font-size: 1.5rem;
     background-image: linear-gradient( to right, #ff7c76, #fba977);
     text-align: center;
     color: #fff;
     border-radius: 50%;
     border: 1px solid #fba977;
-    padding: 7px 0;
+    padding: 0.5rem 0;
     transition: 0.4s;
 }
 .service_item:hover .service_item_left{
@@ -49,6 +49,6 @@
     position: absolute;
     top: 5px;
     right: 10px;
-    font-size: 25px;
+    font-size: 1.5rem;
     color: #ddd;
 }
